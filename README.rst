@@ -6,7 +6,7 @@ How to monitor your micro-service with Prometheus? How to design metrics, what i
 
 Slides and live-coding demo from `PyCode 2018 <https://pycode-conference.org>`_ in Warsaw:
 
-- `in pdf <slides/index.pdf>`_ (source: `slices/ <slides/>`_)
+- `in pdf <slides/index.pdf>`_ (source: `slides/ <slides/>`_)
 - `LinkedIN Slideshare <https://www.slideshare.net/WojciechBarczyski/how-to-monitor-your-microservice-with-prometheus>`_
 - src/ - an example REST application monitored with Prometheus, Alertmanager, and Grafana. See `src/README.rst <src/README.rst>`_. All easy to run with `docker-compose <src/docker-compose.yaml>`_ 
 
