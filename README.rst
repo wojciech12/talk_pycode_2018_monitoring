@@ -2,11 +2,12 @@
 How to monitor your micro-service with Prometheus?
 ==================================================
 
-How to monitor your micro-service with Prometheus? How to design metrics, what is USE and RED? Metrics for a REST service with Prometheus, AlertManager, and Grafana
+How to monitor your micro-service with Prometheus? How to design metrics, what is USE and RED? Metrics for a REST service with Prometheus, AlertManager, and Grafana.
 
-Presentation and live-coding demo for `PyCode 2018 <https://pycode-conference.org>`_ in Warsaw:
+Slides and live-coding demo from `PyCode 2018 <https://pycode-conference.org>`_ in Warsaw:
 
-- slides/ - check `the pdf export <slides/index.pdf>`_
+- `in pdf <slides/index.pdf>`_ (source: `slices/<slides_>`_)
+- `LinkedIN Slideshare <https://www.slideshare.net/WojciechBarczyski/how-to-monitor-your-microservice-with-prometheus>`_
 - src/ - an example REST application monitored with Prometheus, Alertmanager, and Grafana. See `src/README.rst <src/README.rst>`_. All easy to run with `docker-compose <src/docker-compose.yaml>`_ 
 
 The live-demo consists of a Flask application and configured prometheus with grafana and alertmanager. To make it event easier, a request generator will let you stress the monitored endpoints with random errors and latency injections. Check the READMEs.
